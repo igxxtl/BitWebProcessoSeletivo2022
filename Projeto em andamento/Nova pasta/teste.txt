@@ -1,0 +1,125 @@
+notas aula 2:
+
+<!DOCTYPE html> declara o tipo do doc
+<html> raiz de uma página
+<head> meta info do documento
+<title> titulo pro documento
+<body> conteudo visível
+
+Head - Exemplo
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title> página ex </title>
+<meta name="description"
+content="Um exemplo HTML">
+<link rel="stylesheet"
+href="css/myStyle.css">
+</head>
+
+Body - exemplo
+
+<body>
+<main>
+<h1>
+<p>
+
+Elementos Comuns
+
+h1 até h6 -> quando maior menor
+p -> paragrafo
+hr -> quebra de paragrafo
+
+img
+
+<figure>
+<img src="link" alt="Nome figura">
+<figcaption> Informações da Figura</figcaption>
+</figure>
+
+listas <ul> lista desordenada
+
+<ul>
+<li>água</li>
+<li>Fogo</li>
+<li>Terra</li>
+<li>Ar</li>
+
+<ol> lista ordenada
+<ol type="I">
+<ol start="102">
+<li></li>
+
+lista aninhada
+
+<ul>
+<li>root</li>
+  <ul>
+     <li>User</li>
+         <ul>
+            <li>Home</li>
+            </ul>
+
+âncora interna
+
+<a href="#minhaSection">
+Minha sessão
+</a>
+
+<section id="minhaSection">
+</section>
+
+âncora externa
+
+<a href="href://pudim.com.br/">
+Pudim
+</a>
+
+<a href="./outraPagina.html">
+Outra página minha.
+
+<a href="./outraPagina.html#minhaSeection">
+Uma section da minha outra página
+</a>
+
+target
+
+<a  href="https:"> abre na mesma aba
+<a target="_blank" href"http"> abre em outra aba
+<a href="http" download> vai baixar
+
+ atributo rel (relationship)
+
+<a href"http" rel="blabla"> declara que leva para um doc externo
+
+rel=
+alternate - representação alternativa do documento
+author - link pro autor do documento
+external - site externo ao atual
+help - doc de ajuda
+license - info de licenciamento do doc
+next e prev - prox doc ou anterior em uma seleção
+noopener - especifica q o acesso deve ser feito em outro processo (segurança e performance)
+search - ferramenta de busca
+
+<tabela>
+<tr>
+<th> Números</th> colunas
+ou
+<td>1</td> tabel data
+
+(colspan e rowspan afeta apenas a célula)
+
+<td colspan="2">X</td> -> indica quantas colunas a tabela vai ocupar
+
+<td rowspan="1"> -> indica quantas linhas ele ocupa
+
+separar semanticamente a tabela:
+
+<table> / <table>
+<thead> / <colgroup>
+<tbody> / <col class
+<tfoot> / 

@@ -1,0 +1,117 @@
+body{
+    color: black;
+    background-color: aquamarine;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 2px solid white;
+}
+
+nav ul {
+    display:flex;
+    justify-content:flex-end;
+    list-style:none;
+    padding: 30px;
+    padding-right: 150px;
+}
+
+nav img {
+    padding-left: 150px;
+}
+
+a{
+    display: flex;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+div h1 {
+    font-size: 45px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+div p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+
+.botao ul li {
+    color: black;
+    list-style: none;
+    display: flex;
+}
+
+.footer.footer{
+    height: 100%;
+    background-color: white;
+    position: relative; 
+}
+
+.mapa-do-site{
+    text-decoration: none;
+}
+
+.endereco{
+    margin-left: 45px;
+}
+
+.footer.footer .container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer.footer .container >div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+.footer h2{
+    color: black;
+}
+
+.footer p{
+    padding-left: 238px;
+    font-size: 15px;
+    color: black;
+}
+
+.footer a{
+    color:black;
+    padding-left: 255px;
+}
+
+.botao ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 500px 100px 500px;
+}
+
+.banner {
+    padding: 20px;
+    
+}
+
+.banner div a{
+    padding-left: 150px;
+    font-size: 22px;
+    color: red;
+    padding-bottom: 70px;
+    border-bottom: 2px solid white;
+}
