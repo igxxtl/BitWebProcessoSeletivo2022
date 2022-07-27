@@ -1,6 +1,6 @@
 body{
     color: black;
-    background-color: aquamarine;
+    background-color: #fff;
     font-family: Helvetica;
     text-align: center;
     padding: 0px;
@@ -9,10 +9,15 @@ body{
 
 nav {
     display: flex;
+    background-color: #1F1F1F;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
+}
+
+nav ul li a{
+    color: white;
 }
 
 nav ul {
@@ -76,6 +81,7 @@ footer {
 .footer.footer .container{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 80px;
 }
 .footer.footer .container >div{
     flex-grow: 1;
@@ -87,25 +93,32 @@ footer {
 }
 
 .footer p{
-    padding-left: 238px;
+    padding-left: 145px;
     font-size: 15px;
     color: black;
 }
 
 .footer a{
     color:black;
-    padding-left: 255px;
+    padding-left: 120px;
 }
 
 .botao ul{
     display: flex;
     justify-content: space-between;
-    padding: 50px 500px 100px 500px;
+    position: relative;
+    left: 430px;
 }
+
 
 .banner {
     padding: 20px;
-    
+    margin: 120px;
+    height: 300px;
+    background: url(./icons/yeezy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner div a{
@@ -114,4 +127,116 @@ footer {
     color: red;
     padding-bottom: 70px;
     border-bottom: 2px solid white;
+}
+
+.mapa-do-site a{
+    padding-left: 170px;
+}
+
+.banner h1{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.banner p{
+    margin-bottom: 47px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 4px;
+}
+
+.btn{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 294px;
+    bottom: 250px;
+    padding-left: 10px;
+    width: 75px;
+    background: #1F1F1F;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn a{
+    color: white;
+}
+
+.btn:hover{
+    background: rgb(105, 105, 105);
+    transition: background 1s;
+}
+
+.botao ul li a{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 170px;
+    padding-left: 10px;
+    width: 75px;
+    background: #1F1F1F;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.botao ul li a:hover{
+    background: rgb(105, 105, 105);
+    transition: background 1s;
+}
+
+.newsletter{
+    height: 200px;
+} 
+
+.newsletter h2{
+    position: relative;
+    top: 50px;
+}
+
+.email-box {
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.galeria{
+    display: flex;
+    position: relative;
+    left: 260px;
+    padding-top: 50px;
+    border-bottom: 100px;
+    height: 550px;
+}
+
+.galeriatexto{
+    font-size: 40px;
+    font-weight: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 270px 0px 300px;
+    position: relative;
+    bottom: 300px;
+}
+
+.galeriatexto a{
+    
+    color: rgb(9, 255, 0);
+    font-weight:bold;    
+}
+.galeriatexto a:hover{
+    background: rgba(145, 143, 143, 0.822);
+    transition: background 1s;
+    border-radius: 5px;
+}
+
+.galeriafundo {
+    background-color:rgba(105, 103, 103, 0.13);
 }
